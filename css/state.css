@@ -1,20 +1,11 @@
 /* Anything bigger than 769, do this... */
 
 @media (min-width: 768px) {
-  * {
-    width: 960px;
-    margin: auto;
-  }
-  .upper, .lower {
-    overflow-y: auto;
-    margin: auto;
-  }
-
+  
   #a {
     height: 100px;
     width: 100%;
-    margin: auto;
-    line-height: 75px;
+    line-height: 100px;
   }
   
   #b {
@@ -67,12 +58,11 @@
   }
   
   #i {
-    clear: left;
+    clear: right;
     float: right;
     height: 150px;
-    width: 79%;
+    width: 80%;
     background-color: black;
-    display: block;
     color: white;
     line-height: 150px;
   }

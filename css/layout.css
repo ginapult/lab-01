@@ -1,6 +1,10 @@
 * {
-  margin: auto;
   text-align: center;
+}
+
+#wrapper {
+  max-width: 960px;
+  margin: auto;
 }
 
 #a {
