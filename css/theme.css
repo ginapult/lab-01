@@ -1,0 +1,37 @@
+#a {
+  background-color: gray;
+}
+
+#b {
+  background-color: pink;
+}
+
+#c {
+  background-color: peachpuff;
+}
+
+#d {
+  background-color: lightgoldenrodyellow;
+}
+
+#e {
+  background-color: lightgreen;
+}
+
+#f {
+  background-color: lightblue;
+}
+
+#g {
+  background-color: lightskyblue
+}
+
+#h {
+  background-color: violet;
+}
+
+#i {
+  background-color: black;
+  display: block;
+  color: white;
+}
