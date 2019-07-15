@@ -1,6 +1,30 @@
+@media (min-width: 768px) {
+#wrapper-main {
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  grid-template-areas:
+    "b b b b"
+}
+
+#b {
+  grid-area: b;
+}
+}
+
+
+@media (min-width: 320px) {
+
+}
+ 
+
+
+
+
+
+
 /* Anything bigger than 769, do this... */
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   
   #a {
     height: 100px;
@@ -66,4 +90,4 @@
     color: white;
     line-height: 150px;
   }
-}
+} */
